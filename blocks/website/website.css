@@ -1,0 +1,10 @@
+.website {
+  align-self: end;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .website {
+    align-self: inherit;
+  }
+}
