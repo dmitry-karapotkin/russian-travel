@@ -2,20 +2,16 @@
   max-width: 360px;
   font-size: 18px;
   line-height: 22px;
-  font-weight: normal;
+  font-weight: 400;
   text-align: center;
   margin: 0;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .cover__subtitle {
-    width: calc(100vw - 32px);
-  }
-}
-
-@media (max-width: 400px) {
-  .cover__subtitle {
-    font-size: calc(5vw - 2px);
-    line-height: 5vw;
+    max-width: 288px;
+    margin: 0 16px 16px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

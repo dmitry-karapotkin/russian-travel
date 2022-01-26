@@ -1,5 +1,5 @@
 .photo-grid {
-  width: calc(100vw - 96px);
+  width: calc(100% - 96px);
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
   gap: 16px;
@@ -15,16 +15,15 @@
 @media (max-width: 1023px) {
   .photo-grid {
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
-    width: calc(100vw - 48px);
+    width: calc(100% - 48px);
     margin-bottom: 88px;
   }
 }
 
 @media (max-width: 767px) {
   .photo-grid {
-    display: grid;
     grid-template: repeat(12, 1fr) / 1fr;
-    width: calc(100vw - 32px);
+    width: calc(100% - 32px);
     margin-bottom: 64px;
   }
 }

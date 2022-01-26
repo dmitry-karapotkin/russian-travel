@@ -2,16 +2,16 @@
   max-width: 560px;
   font-size: 72px;
   line-height: 76px;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   margin: 0 0 32px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .cover__title {
-    width: calc(100vw - 32px);
-    margin-bottom: 5vw;
-    font-size: 10vw;
-    line-height: calc(10vw + 3px);
+    max-width: 288px;
+    margin: 0 16px 16px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
