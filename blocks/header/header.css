@@ -1,20 +1,24 @@
 .header {
+  width: calc(100% - 96px);
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin: 28px 48px 0;
+  margin: 28px 0 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .header {
+    width: calc(100% - 48px);
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .header {
+    width: calc(100% - 32px);
     margin: 16px 16px 0;
   }
 }
